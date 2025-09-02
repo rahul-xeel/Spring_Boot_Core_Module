@@ -22,8 +22,6 @@ public class SpringBoot2Application {
 		System.out.println();
 		System.out.println("My age is " + student.getAge());
 		
-		
-		
 	}
 	
 	

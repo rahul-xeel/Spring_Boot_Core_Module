@@ -1,0 +1,31 @@
+package com.spring2;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+
+@Component
+public class Fruitlist {
+
+	
+	
+//	Field Injection
+	
+	@Autowired
+	private Banana bananaclass2;
+	
+	
+
+	public Banana getKela() {
+		return bananaclass2;
+	}
+
+		public void setKela(Banana kela) {
+		this.bananaclass2 = kela;
+	}
+	
+	
+	
+	
+}

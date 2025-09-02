@@ -1,0 +1,18 @@
+package com.spring2;
+
+import org.springframework.stereotype.Component;
+
+
+@Component
+public class bananaclass implements Banana{
+
+	@Override
+	public String fruit() {
+
+		return "I am banaclass";
+	}
+	
+	
+	
+	
+}

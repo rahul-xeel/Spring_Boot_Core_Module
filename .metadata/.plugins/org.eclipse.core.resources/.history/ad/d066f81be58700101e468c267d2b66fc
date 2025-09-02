@@ -1,0 +1,55 @@
+
+package com.spring2;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class databaseconfiguration{
+	
+	@Value("${aws.port:123}")
+	int port;
+	
+	@Value("${aws.url}")
+	String url;
+	
+	@Value("${aws.username}")
+	String username;
+	
+	@Value("${aws.password}")
+	String password;
+	
+	
+	public databaseconfiguration()
+	{
+		System.out.println("Database configuration created ...");
+	}
+	
+	
+	public int getPort() {
+		return port;
+	}
+	public void setPort(int port) {
+		this.port = port;
+	}
+	public String getUrl() {
+		return url;
+	}
+	public void setUrl(String url) {
+		this.url = url;
+	}
+	public String getUsername() {
+		return username;
+	}
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	
+	
+}

@@ -1,0 +1,7 @@
+spring.application.name=Spring_Boot2
+
+
+    port = 10:90:12
+	url = rahul.xeel.in
+	username = rahulxeel
+	password = 123123

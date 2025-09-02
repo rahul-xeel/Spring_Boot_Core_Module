@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.spring2.configuration.loudekabal.java&apos; to &apos;Loudekabal.java&apos;&#x0A;- Original project: &apos;Spring_Boot6&apos;&#x0A;- Original element: &apos;com.spring2.configuration.loudekabal.java&apos;&#x0A;- Renamed element: &apos;com.spring2.configuration.Loudekabal.java&apos;" description="Rename compilation unit &apos;loudekabal.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.spring2.configuration{loudekabal.java" name="Loudekabal.java" references="false" stamp="1756478011150" version="1.0"/>
+</session>

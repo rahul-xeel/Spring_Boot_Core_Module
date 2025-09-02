@@ -1,0 +1,41 @@
+package com.spring2;
+
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Primary;
+
+
+@SpringBootApplication
+public class SpringBoot2Application {
+	
+	
+	
+
+	
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+		ConfigurableApplicationContext container = 	SpringApplication.run(SpringBoot2Application.class, args);
+		
+		
+		databaseconfiguration dbc = (databaseconfiguration)container.getBean("databaseconfiguration");
+		
+		  
+		  System.out.println(dbc.getPort());
+		  System.out.println(dbc.getUrl());
+		  System.out.println(dbc.getUsername());
+		  System.out.println(dbc.getPassword());
+				
+
+	}
+	
+
+
+}

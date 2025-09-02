@@ -1,0 +1,26 @@
+package com.spring2;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+
+@Component
+public class Fruitlist {
+
+	
+	public Fruitlist() 
+	{
+		
+		System.out.println("I am Fruitlist");
+	}
+	
+	
+	
+	@Autowired
+	public MyNameIsApple myNameIsApple; 
+	
+	
+	
+	
+}
